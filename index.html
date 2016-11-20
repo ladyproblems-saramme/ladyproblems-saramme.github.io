@@ -17,13 +17,13 @@
  line-height: 50px;
  text-align: center;
  /* Starting position */
- -moz-transform:translateX(100%);
- -webkit-transform:translateX(100%);	
- transform:translateX(100%);
+ -moz-transform:translateX(75%);
+ -webkit-transform:translateX(75%);	
+ transform:translateX(75%);
  /* Apply animation to this element */	
- -moz-animation: example1 20s linear infinite;
- -webkit-animation: example1 15s linear infinite;
- animation: example1 20s linear infinite;
+ -moz-animation: example1 18s linear infinite;
+ -webkit-animation: example1 18s linear infinite;
+ animation: example1 18s linear infinite;
 }
 /* Move it (define the animation) */
 @-moz-keyframes example1 {
@@ -35,6 +35,216 @@
  100% { -webkit-transform: translateX(-100%); }
 }
 @keyframes example1 {
+ 0%   { 
+ -moz-transform: translateX(100%); /* Firefox bug fix */
+ -webkit-transform: translateX(100%); /* Firefox bug fix */
+ transform: translateX(100%); 		
+ }
+ 100% { 
+ -moz-transform: translateX(-100%); /* Firefox bug fix */
+ -webkit-transform: translateX(-100%); /* Firefox bug fix */
+ transform: translateX(-100%); 
+ }
+}
+.example2 {
+ height: 200px;	
+ overflow: hidden;
+ position: relative;
+}
+.example2  {
+ position: absolute;
+ width: 100%;
+ height: 100%;
+ margin: 0;
+ line-height: 200px;
+ text-align: center;
+ /* Starting position */
+ -moz-transform:translateX(100%);
+ -webkit-transform:translateX(100%);	
+ transform:translateX(100%);
+ /* Apply animation to this element */	
+ -moz-animation: example2 25s linear infinite;
+ -webkit-animation: example2 25s linear infinite;
+ animation: example2 25s linear infinite;
+}
+/* Move it (define the animation) */
+@-moz-keyframes example2 {
+ 0%   { -moz-transform: translateX(100%); }
+ 100% { -moz-transform: translateX(-100%); }
+}
+@-webkit-keyframes example2 {
+ 0%   { -webkit-transform: translateX(100%); }
+ 100% { -webkit-transform: translateX(-100%); }
+}
+@keyframes example2 {
+ 0%   { 
+ -moz-transform: translateX(100%); /* Firefox bug fix */
+ -webkit-transform: translateX(100%); /* Firefox bug fix */
+ transform: translateX(100%); 		
+ }
+ 100% { 
+ -moz-transform: translateX(-100%); /* Firefox bug fix */
+ -webkit-transform: translateX(-100%); /* Firefox bug fix */
+ transform: translateX(-100%); 
+ }
+}
+.example3 {
+ height: 350px;	
+ overflow: hidden;
+ position: relative;
+}
+.example3  {
+ position: absolute;
+ width: 100%;
+ height: 100%;
+ margin: 0;
+ line-height: 350px;
+ text-align: center;
+ /* Starting position */
+ -moz-transform:translateX(100%);
+ -webkit-transform:translateX(100%);	
+ transform:translateX(100%);
+ /* Apply animation to this element */	
+ -moz-animation: example3 22s linear infinite;
+ -webkit-animation: example3 22s linear infinite;
+ animation: example3 22s linear infinite;
+}
+/* Move it (define the animation) */
+@-moz-keyframes example3 {
+ 0%   { -moz-transform: translateX(100%); }
+ 100% { -moz-transform: translateX(-100%); }
+}
+@-webkit-keyframes example3 {
+ 0%   { -webkit-transform: translateX(100%); }
+ 100% { -webkit-transform: translateX(-100%); }
+}
+@keyframes example3 {
+ 0%   { 
+ -moz-transform: translateX(100%); /* Firefox bug fix */
+ -webkit-transform: translateX(100%); /* Firefox bug fix */
+ transform: translateX(100%); 		
+ }
+ 100% { 
+ -moz-transform: translateX(-100%); /* Firefox bug fix */
+ -webkit-transform: translateX(-100%); /* Firefox bug fix */
+ transform: translateX(-100%); 
+ }
+}
+.example4 {
+ height: 500px;	
+ overflow: hidden;
+ position: relative;
+}
+.example4  {
+ position: absolute;
+ width: 100%;
+ height: 100%;
+ margin: 0;
+ line-height: 500px;
+ text-align: center;
+ /* Starting position */
+ -moz-transform:translateX(75%);
+ -webkit-transform:translateX(75%);	
+ transform:translateX(75%);
+ /* Apply animation to this element */	
+ -moz-animation: example4 20s linear infinite;
+ -webkit-animation: example4 20s linear infinite;
+ animation: example4 20s linear infinite;
+}
+/* Move it (define the animation) */
+@-moz-keyframes example4 {
+ 0%   { -moz-transform: translateX(100%); }
+ 100% { -moz-transform: translateX(-100%); }
+}
+@-webkit-keyframes example4 {
+ 0%   { -webkit-transform: translateX(100%); }
+ 100% { -webkit-transform: translateX(-100%); }
+}
+@keyframes example4 {
+ 0%   { 
+ -moz-transform: translateX(100%); /* Firefox bug fix */
+ -webkit-transform: translateX(100%); /* Firefox bug fix */
+ transform: translateX(100%); 		
+ }
+ 100% { 
+ -moz-transform: translateX(-100%); /* Firefox bug fix */
+ -webkit-transform: translateX(-100%); /* Firefox bug fix */
+ transform: translateX(-100%); 
+ }
+}
+.example5 {
+ height: 650px;	
+ overflow: hidden;
+ position: relative;
+}
+.example5  {
+ position: absolute;
+ width: 100%;
+ height: 100%;
+ margin: 0;
+ line-height: 650px;
+ text-align: center;
+ /* Starting position */
+ -moz-transform:translateX(100%);
+ -webkit-transform:translateX(100%);	
+ transform:translateX(100%);
+ /* Apply animation to this element */	
+ -moz-animation: example5 24s linear infinite;
+ -webkit-animation: example5 24s linear infinite;
+ animation: example5 24s linear infinite;
+}
+/* Move it (define the animation) */
+@-moz-keyframes example5 {
+ 0%   { -moz-transform: translateX(100%); }
+ 100% { -moz-transform: translateX(-100%); }
+}
+@-webkit-keyframes example5 {
+ 0%   { -webkit-transform: translateX(100%); }
+ 100% { -webkit-transform: translateX(-100%); }
+}
+@keyframes example5 {
+ 0%   { 
+ -moz-transform: translateX(100%); /* Firefox bug fix */
+ -webkit-transform: translateX(100%); /* Firefox bug fix */
+ transform: translateX(100%); 		
+ }
+ 100% { 
+ -moz-transform: translateX(-100%); /* Firefox bug fix */
+ -webkit-transform: translateX(-100%); /* Firefox bug fix */
+ transform: translateX(-100%); 
+ }
+}
+.example6 {
+ height: 800px;	
+ overflow: hidden;
+ position: relative;
+}
+.example6  {
+ position: absolute;
+ width: 100%;
+ height: 100%;
+ margin: 0;
+ line-height: 800px;
+ text-align: center;
+ /* Starting position */
+ -moz-transform:translateX(100%);
+ -webkit-transform:translateX(100%);	
+ transform:translateX(100%);
+ /* Apply animation to this element */	
+ -moz-animation: example6 21s linear infinite;
+ -webkit-animation: example6 21s linear infinite;
+ animation: example6 21s linear infinite;
+}
+/* Move it (define the animation) */
+@-moz-keyframes example6 {
+ 0%   { -moz-transform: translateX(100%); }
+ 100% { -moz-transform: translateX(-100%); }
+}
+@-webkit-keyframes example6 {
+ 0%   { -webkit-transform: translateX(100%); }
+ 100% { -webkit-transform: translateX(-100%); }
+}
+@keyframes example6 {
  0%   { 
  -moz-transform: translateX(100%); /* Firefox bug fix */
  -webkit-transform: translateX(100%); /* Firefox bug fix */
@@ -137,6 +347,7 @@ body {
 	background-color: lightblue;
     background-image: url("tamponsandpads.jpg");
     background-repeat: image;
+	screen.width:	100%;
 }
 
 p.round2 {
@@ -184,9 +395,23 @@ p.round3 {
 </style>
 <!-- HTML -->	
 <div class="example1">
-<h3>Adjusting absorbency based on flow and other factors can reduce leakage and improve comfort 11% vary tampon according to this Tampax Pearl Power proprietary algorithm learn to choose the most appropriate tampon absorbency based on her input Customized recommend </h3>
+<h3>Who runs the world? Girls. -Beyonce</h3>
 </div>
-
+<div class="example2">
+<h3> Don't be afraid to speak up for yourself. Keep fighting for your dreams! -Gabby Douglas</h3>
+</div>
+<div class="example3">
+<h3> I am not afraid. I was born to do this. -Joan of Arc</h3>
+</div>
+<div class="example4">
+<h3>No one can make you feel inferior without your concent. -Elenor Roosevelt</h3>
+</div>
+<div class="example5">
+<h3>She is clothed in strength and dignity, and she laughs without fear of the future. -Seventeen</h3>
+</div>
+<div class="example6">
+<h3>[You] have what it takes to be a victorious, independent, fearless woman. -Tyra Banks</h3>
+</div>
 <p class="round3", "example1"></p>
 </body>
 </html>
